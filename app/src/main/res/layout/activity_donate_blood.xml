@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/homebackground"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="20dp">
+
+
+<ImageView
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="2.9"
+    android:src="@drawable/onlyfonts2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="LOGIN"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorWhite"></View>
+
+    <EditText
+        android:id="@+id/log_username"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username (NIC)"
+        android:background="@drawable/whiteedittextback"
+        android:paddingLeft="20sp"/>
+
+    <EditText
+        android:id="@+id/log_password"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:background="@drawable/whiteedittextback"
+        android:paddingLeft="20sp"/>
+
+    <Button
+        android:onClick="loginbtn"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_buttonback"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LogIn"/>
+
+    <TextView
+        android:visibility="gone"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="Forgot your password?"
+        android:gravity="center"
+        android:onClick="forgotpassw"/>
+
+    <TextView
+
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="Not a member? Get registered in Rudiraya now!"
+        android:gravity="center"
+        android:onClick="notamember"/>
+
+
+
+
+
+</LinearLayout>

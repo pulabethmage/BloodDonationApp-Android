@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingBottom="30dp"
+    android:paddingTop="10dp">
+
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/choosephoto"
+        android:textColor="@color/colorWhite"
+        android:onClick="choosephoto"
+        android:textStyle="bold"
+        android:src="@drawable/ic_photo_camera_black_24dp"
+        android:background="@drawable/edit_btn_back"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:layout_height="35dp"
+        android:layout_gravity="left"/>
+    <Button
+        android:visibility="invisible"
+        android:textStyle="bold"
+        android:text="Save"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="35dp"
+        android:layout_gravity="left"/>
+
+
+    <Button
+        android:id="@+id/editbtn"
+        android:textColor="@color/colorWhite"
+        android:onClick="editbtn"
+        android:textStyle="bold"
+        android:text="edit"
+        android:textSize="12dp"
+        android:background="@drawable/edit_btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="right"/>
+
+</LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imageViewPatintProPic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/rudhirayalogo"
+            android:layout_gravity="center"
+            app:civ_border_width="3dp"
+            app:civ_border_color="#FF7070"
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:civ_border_width="3dp"
+            app:civ_border_color="#FF7070"
+            android:visibility="gone"
+            android:id="@+id/editimageview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+
+    </RelativeLayout>
+
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pofile Name Goes Here"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:textSize="10sp"
+            android:id="@+id/typeid"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/typeback"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:text="Type"
+            android:gravity="center"
+            android:padding="6dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"/>
+
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5">
+
+
+
+            <TextView
+                android:padding="5dp"
+                android:background="@color/colorBackEditText"
+                android:textSize="15sp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="NIC Number"
+                android:gravity="center_vertical"/>
+
+            <EditText
+                android:enabled="false"
+                android:id="@+id/profile_nic"
+                android:paddingLeft="10dp"
+                android:textSize="15sp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_weight="2"
+                android:text="892820520v"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8">
+
+            <TextView
+                android:padding="5dp"
+                android:background="@color/colorBackEditText"
+                android:textSize="15sp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="Address"/>
+
+            <EditText
+                android:enabled="false"
+                android:id="@+id/profile_address"
+                android:paddingLeft="10dp"
+                android:textSize="15sp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_weight="2"
+                android:text="629/D, Thalangama South, Battramulla, Sri Lanka"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7">
+
+            <TextView
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:background="@color/colorBackEditText"
+                android:textSize="15sp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Contact Number"/>
+
+            <EditText
+                android:enabled="false"
+                android:id="@+id/profile_mobile"
+                android:paddingLeft="10dp"
+                android:textSize="15sp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_weight="2"
+                android:text="0715 369 728"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5">
+
+            <TextView
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:background="@color/colorBackEditText"
+                android:textSize="15sp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Blood Group"/>
+
+            <EditText
+                android:enabled="false"
+                android:id="@+id/profile_bloodtype"
+                android:paddingLeft="10dp"
+                android:textSize="15sp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_weight="2"
+                android:text="O+"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/typelayout"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorBackEditText"
+
+            android:padding="15dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:textStyle="bold"
+                android:paddingBottom="5sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Choose Type"/>
+
+            <Spinner
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:background="@color/colorDivider"
+                android:layout_marginTop="5dp"
+                android:id="@+id/actionTypeSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:prompt="@string/action_prompt"
+                android:entries="@array/action_type">
+            </Spinner>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

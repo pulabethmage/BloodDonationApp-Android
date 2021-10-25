@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:background="@drawable/homebackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="25sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/action_bloodmatching"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorWhite"
+                android:text="@string/action_bloodmatching_des"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/action_bloodtypematching"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorWhite"
+                android:text="@string/action_bloodtypematching_des"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="Recipient Blood Type"
+                    />
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="Matching Donor Blood Type"
+                    />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/colorBackEditText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="A+"
+                    />
+
+                <TextView
+
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="A+, A-, O+, O-"
+                    />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="A-"
+                    />
+
+                <TextView
+
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="A-, O-"
+                    />
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorBackEditText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="B+"
+                    />
+
+                <TextView
+
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="B+, B-, O+, O-"
+                    />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="B-"
+                    />
+
+                <TextView
+
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="B-, O-"
+                    />
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorBackEditText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="AB+"
+                    />
+
+                <TextView
+
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="Compatible with all blood types"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="AB-"
+                    />
+
+                <TextView
+
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="AB-, A-, B-, O-"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorBackEditText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="O+"
+                    />
+
+                <TextView
+
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="O+, O-"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="O-"
+                    />
+
+                <TextView
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="O-"
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

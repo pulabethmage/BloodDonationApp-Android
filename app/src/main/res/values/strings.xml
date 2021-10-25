@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Rudhiraya</string>
+
+    <string name="action01">DONATE\nBLOOD</string>
+    <string name="action02">FIND A \nDONOR</string>
+
+    <string name="dis1">List of donees who needs blood.</string>
+    <string name="dis2">List of donors are looking for patients.</string>
+
+
+    <string name="action03">PERSONAL PROFILE</string>
+    <string name="action04">BLOOD MATCHING</string>
+
+    <string name="dis3">Personal Information.</string>
+    <string name="dis4">Blood Type Matching and Recipient Safety.</string>
+
+
+    <string name="blood_prompt">Blood group</string>
+    <string name="action_prompt">Choose Type</string>
+
+    <string name="action_bloodmatching">Donation Procedure\nAnd Donor Safety</string>
+    <string name="action_bloodmatching_des">Since the institution of blood banking, safety for both donors and blood recipients has
+        been continually and significantly improved. Because a safe, reliable source of blood is critical to providing effective blood
+        products to recipients, blood banks are dependent on the altruistic voluntary donations of citizens. As a result, blood banks
+        place great emphasis on making the donation process pleasant, convenient, and as safe as possible for donors.\n\n
+The donation process begins with a screening procedure to determine if the donor is healthy and has no conditions that would make his
+        or her donation hazardous. Donors are asked about their general health, as well as their travel history and possible past exposure
+        of blood-transmitted diseases, such as HIV, malaria, and hepatitis. A simple physical, including blood pressure, pulse rate, and
+        temperature, is used to rule out other risks. This physical will also look for signs of any of the blood-transmitted
+        diseases that might increase recipient risk. A simple laboratory measurement is used to make sure that the blood donation will
+        not make the donor anemic.</string>
+
+
+
+    <string name="action_bloodtypematching">Blood Type Matching</string>
+    <string name="action_bloodtypematching_des">On their surface, red cells have inherited chemical
+        structures called antigens that can cause a person’s immune system to make antibodies against them.
+        Humans have 35 major groups or families of these antigens, as well as other minor groups, but consideration of two,
+        the ABO group and the RhD group, is very important to ensure that a transfusion recipient receives compatible blood.
+        The presence of antigens within these groups is what determines a person’s blood type. Blood types are referred to as Type A, Type B,
+        Type AB (which has both A and B antigens), or Type O (which has neither A or B antigens) followed by positive
+        or negative, which indicates the presence of
+        the RhD antigen. Persons who are RhD negative have no RhD antigen.</string>
+
+
+
+
+
+
+
+
+    <string-array name="bloodgroup_arrays">
+        <item>O-</item>
+        <item>0+</item>
+        <item>A-</item>
+        <item>A+</item>
+        <item>B-</item>
+        <item>B+</item>
+        <item>AB-</item>
+        <item>AB+</item>
+    </string-array>
+    <string-array name="action_type">
+        <item>Donor</item>
+        <item>Donee</item>
+
+    </string-array>
+
+
+</resources>

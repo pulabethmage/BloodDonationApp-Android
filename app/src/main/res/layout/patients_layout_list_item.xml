@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:id="@+id/parent_layout"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/homemenusback">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:padding="10dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/patient_pro_pic"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_sentiment_very_satisfied_black_24dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF7070"/>
+
+
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6"
+                    android:text="Pulasthi Bethmage"
+                    android:id="@+id/patient_profile_name" />
+
+                <TextView
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:gravity="center"
+                    android:background="@drawable/whitebuttonback"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="O+"
+                    android:id="@+id/patient_blood_type" />
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textSize="18sp"
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Male"
+                    android:id="@+id/patient_gender" />
+
+                <TextView
+                    android:textSize="15sp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="29 yrs"
+                    android:id="@+id/patient_age" />
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textSize="12sp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Email"
+                    android:id="@+id/patient_email" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textSize="12sp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Phone"
+                    android:id="@+id/patient_phone" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <Button
+                    android:onClick="callnow"
+                    android:textSize="10sp"
+                    android:padding="5dp"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:background="@drawable/callbuttonbackground"
+                    android:text="contact now"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"/>
+
+                <LinearLayout
+                    android:gravity="right|center"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+
+                        android:textStyle="bold"
+                        android:textColor="@color/colorWhite"
+                        android:padding="5dp"
+                        android:background="#9e9e9e"
+                        android:textSize="10sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Offline"
+                        android:id="@+id/tv_patient_onlinestat" />
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

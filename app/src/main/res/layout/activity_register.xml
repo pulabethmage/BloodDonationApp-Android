@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:paddingRight="25dp"
+    android:paddingLeft="25dp"
+    android:paddingBottom="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:padding="15dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:text="REGISTER NOW"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:background="@color/colorBackEditText"
+
+            android:padding="15dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:textStyle="bold"
+                android:paddingBottom="5sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Choose Type"/>
+
+            <Spinner
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:background="@color/colorDivider"
+                android:layout_marginTop="5dp"
+                android:id="@+id/actionTypeSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:prompt="@string/action_prompt"
+                android:entries="@array/action_type">
+            </Spinner>
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Full Name"/>
+
+        <EditText
+
+            android:layout_marginTop="5dp"
+            android:padding="15dp"
+            android:background="@color/colorBackEditText"
+            android:id="@+id/regFullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Full Name"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nic Number"/>
+
+        <EditText
+
+            android:layout_marginTop="5dp"
+            android:padding="15dp"
+            android:background="@color/colorBackEditText"
+            android:id="@+id/regNic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Nic Number"/>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:background="@color/colorBackEditText"
+            android:padding="15dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:textStyle="bold"
+                android:paddingBottom="5sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Choose Gender"/>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioGroup
+                    android:id="@+id/regRadioGroup"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5sp">
+
+
+                    <RadioButton
+                        android:id="@+id/regGenMale"
+                        android:text="Male"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent" />
+                    <RadioButton
+                        android:id="@+id/regGenFemale"
+                        android:text="Female"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent" />
+
+
+                </RadioGroup>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Age"/>
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:padding="15dp"
+            android:background="@color/colorBackEditText"
+            android:id="@+id/regAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Age"
+            android:inputType="number"/>
+
+
+        <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"/>
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:padding="15dp"
+            android:background="@color/colorBackEditText"
+            android:id="@+id/regEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter E-mail"
+            android:inputType="textEmailAddress"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"/>
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:padding="15dp"
+            android:background="@color/colorBackEditText"
+
+            android:id="@+id/regPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Enter Password"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Comfirm Password"/>
+        <EditText
+            android:layout_marginTop="5dp"
+            android:padding="15dp"
+            android:background="@color/colorBackEditText"
+            android:id="@+id/regConfPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="EnterConfirm Password"/>
+
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:background="@color/colorBackEditText"
+
+            android:padding="15dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:textStyle="bold"
+                android:paddingBottom="5sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Choose Blood Group"/>
+
+            <Spinner
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:background="@color/colorDivider"
+                android:layout_marginTop="5dp"
+                android:id="@+id/bloodSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:prompt="@string/blood_prompt"
+                android:entries="@array/bloodgroup_arrays">
+            </Spinner>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile Number"/>
+
+        <EditText
+            android:padding="15dp"
+            android:background="@color/colorBackEditText"
+            android:layout_marginTop="5dp"
+            android:id="@+id/regPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Mobile Number"
+            android:inputType="phone"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"/>
+        <EditText
+            android:layout_marginTop="5dp"
+            android:padding="15dp"
+            android:background="@color/colorBackEditText"
+
+            android:id="@+id/regAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Address"/>
+
+        <Button
+            android:onClick="btnregister"
+            android:layout_marginTop="10dp"
+            android:id="@+id/regButon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:background="@drawable/whitebuttonback"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
+
